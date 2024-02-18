@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(243, 219, 152);
+  }
+* {
+  color: black;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+ul li a:hover {
+  color: rgb(234, 229, 219); /* Change to the color you prefer */
+  text-decoration: underline;
+}
