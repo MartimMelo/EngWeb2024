@@ -1,0 +1,73 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style for the header */
+h1 {
+    text-align: center !important; /* Center align text */
+    color: #333; /* Dark gray color */
+}
+
+/* Style for the city list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center !important; /* Center align text */
+}
+
+
+/* Style for the main content */
+/* Style for the main content */
+.container {
+    max-width: 800px;
+    margin: 50px auto; /* Center align horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+
+li {
+    margin-bottom: 10px;
+    text-align: center !important;
+}
+
+/* Style for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Ease transition effect */
+    display: flex; /* Aligning items */
+    align-items: center; /* Centering text vertically */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* Style for dots */
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #007bff; /* Color of dots */
+    margin-right: 10px; /* Spacing between text and dots */
+}
+
+/* Style for back to index link */
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
