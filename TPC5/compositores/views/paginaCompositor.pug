@@ -1,0 +1,29 @@
+extends layout 
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h1 Compositor #{writer.nome}
+        .w3-container
+            ul.w3-ul.w3-card-4(style="width:80%")
+                li
+                    b Nome:
+                    | #{writer.nome}
+                li
+                    b Biografia: 
+                    | #{writer.bio}
+                li
+                    b Data de Nascimento: 
+                    | #{writer.dataNasc}
+                li
+                    b Data de Óbito:
+                    | #{writer.dataObito}
+                li
+                    b Período: 
+                    |
+                    a(href=`/periodos/${writer.periodo}`) #{writer.periodo}
+        footer.w3-container.w3-teal
+            address Gerado por Martim Ferreira, 15th March 2024 - 
+                | [ 
+                a(href="/") Voltar
+                | ]
